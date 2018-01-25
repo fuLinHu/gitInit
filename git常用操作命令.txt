@@ -3,7 +3,7 @@ git branch ------显示所有分支
 git checkout -b 分支名称  -----创建分支并切换到改分支
 git checkout 分支名称  ------切换到改分支
 git checkout -   -----------切换上一分支
-git merge --no-ff 分支名称  ----------   --on-ff  :随后编辑器会启动，用于录入合并提交的信息
+git merge --no-ff 分支名称  ----------   --on-ff  :随后编辑器会启动，用于录入合并提交的信息     最后git push
 git log   ---------查看日志
 git log  --graph  以图表形式查看日志
 git log --pretty=oneline  ---查看个版本hash值
