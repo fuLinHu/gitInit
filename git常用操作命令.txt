@@ -1,0 +1,79 @@
+git status ------查看状态
+git branch ------显示所有分支
+git checkout -b 分支名称  -----创建分支并切换到改分支
+git checkout 分支名称  ------切换到改分支
+git checkout -   -----------切换上一分支
+git merge --no-ff 分支名称  ----------   --on-ff  :随后编辑器会启动，用于录入合并提交的信息
+git log   ---------查看日志
+git log  --graph  以图表形式查看日志
+git log --pretty=oneline  ---查看个版本hash值
+git reset --head 版本对应hash值   ------这个hash值可由git log --pretty=oneline 获取 退回指定版本
+git reflog  ---------查看当前仓库执行过的操作日志
+git commit --amend   -----修改上一条提交信息
+git rebase -i HEAD~2   -----压缩历史将最新的两次版本历史记录合并
+git remote add origin   远程仓库地址  -----—添加远程仓库   其中add  origin远程仓库的标示符
+git push -u origin master  ---------将本地仓库推送到远程仓库 其中origin：远程仓库的标示符  master：分支的名称  将本地仓库推送到远程master分支上  
+                                    u参数尽量添加 将来pull是比较方便 不用添加参数
+
+git clone  远程仓库地址    ----------从远程仓库获取    在其他文件夹下进行操作 不要在和本地仓库在同一个人文件夹
+git branch -a  ------查看分支信息
+git push origin 分支名称    --------origin分支标示 创建远程分支
+git pull  ---本地与远程仓库资源同步
+
+git branch -D 分支名称    --------删除分支
+
+      
+   
+   
+   
+ 
+ 
+ 
+ -----注意事项：
+     1.将本地仓库推送到远程仓库时，尽量在远程仓库创建和本地一样名字的仓库
+	   将本地仓库推送到远程仓库时，在远程创建仓库时不能勾选Initialize this repository with a README
+	   
+
+	   
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+gitHub  相关知识学习
+
+1.快捷键
+   shift   /  ------显示快捷键一览表
+Site wide shortcuts
+Site --wide shortcuts
+s	 --Focus search bar
+g n  --Go to Notifications
+g d	 --Go to Dashboard
+?	 --Bring up this help dialog
+j	 --Move selection down
+k	 --Move selection up
+x	 --Toggle selection
+o / enter	--Open selection
+Repositories
+g c	 --Go to Code
+g i	 --Go to Issues
+g p	 --Go to Pull Requests
+g b	 --Go to Projects
+g w	 --Go to Wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+	 
