@@ -25,7 +25,15 @@ git branch -D 分支名称    --------删除分支
       
    
    
-   
+ -----------
+    将本地仓库推送到远程仓库。
+    1.在远程仓库创建仓库 不勾选自动生成readme.md文件选项
+	2.在本地仓库  git init
+	3.在本地仓库  git add .
+	4.在本地仓库  git remote add origin 远程仓库地址
+	5.在本地仓库  git commit -m '注释'
+	6.在本地仓库  git push -u origin master
+    成功将本地数据同步到远程仓库	  
  
  
  
